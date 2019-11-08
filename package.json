@@ -1,5 +1,5 @@
 {
-  "name": "timeout-set",
+  "name": "@gfxpulse/timeout-set",
   "version": "1.0.0",
   "description": "Just like a normal Set, just with callbacks after specified time after adding elements",
   "main": "index.js",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/AndrejZbin/timeout-set/issues"
   },
-  "homepage": "https://github.com/AndrejZbin/timeout-set#readme"
+  "homepage": "https://github.com/AndrejZbin/timeout-set#readme",
+  "dependencies": {
+    "n": "^6.1.0"
+  },
+  "devDependencies": {}
 }
