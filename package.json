@@ -1,5 +1,5 @@
 {
-  "name": "timeout-map",
+  "name": "timeout-set",
   "version": "1.0.0",
   "description": "Just like a normal Set, just with callbacks after specified time after adding elements",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "nodejs",
     "npm",
     "timeout",
-    "map"
+    "set"
   ],
   "author": "Andrej Zbín",
   "license": "ISC",
