@@ -1,7 +1,7 @@
 # Install
 
 ```sh
-npm install @gfxpulse/timeout-map
+npm install @gfxpulse/timeout-set
 ```
 
 
@@ -37,8 +37,8 @@ value2 in set - true
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| `autodelete` | `bool` | `true` | Key automatically deleted from map before handler is called |
+| `autodelete` | `bool` | `true` | Value automatically deleted from set before handler is called |
 | `timeout` | `int` | `null` | How long until handler is called (null = never) |
 | `margin` | `int` | `0` | Minimum time interval between set of handler calls |
 | `additional_arguments` | `array` | `[]` | Additional arguments passed to handler |
-| `handler` | `Function` | `(key, value, map) => {}` | Function called after timeout. Key, value, map and additional arguments are passed as parameters |
+| `handler` | `Function` | `(value, set) => {}` | Function called after timeout. Value, set and additional arguments are passed as parameters |
